@@ -160,20 +160,22 @@ h1::before{
     }
 
     33%{
-        transform: rotateY(360deg) rotateX(50deg);
-        text-shadow: 0 0 10px red;
-        bottom: 250px;
+        bottom: 0;
     }
 
-    34%{
+    38%{
         transform: rotateY(360deg) rotateX(0deg);
+        text-shadow: 0 0 10px red;
+        bottom: 320px;
     }
 
-    47%{
-        bottom: 250px;
+    41%{
+        transform: rotateY(360deg) rotateX(50deg);
+        bottom: 420px;
     }
 
-    60%{
+    55%{
+        transform: rotateY(360deg) rotateX(0deg);
         bottom: 0;
     }
 
