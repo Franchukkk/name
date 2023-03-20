@@ -150,7 +150,7 @@ h1::before{
 
 @keyframes around{
     0%{
-        transform: rotateY(0);
+        transform: rotateY(0) rotateX(0);
         text-shadow: 0 0 10px transparent;
         bottom: 0;
     }
@@ -160,13 +160,29 @@ h1::before{
     }
 
     33%{
-        transform: rotateY(360deg);
+        transform: rotateY(360deg) rotateX(50deg);
         text-shadow: 0 0 10px red;
         bottom: 250px;
     }
 
+    34%{
+        transform: rotateY(360deg) rotateX(0deg);
+    }
+
     47%{
         bottom: 250px;
+    }
+
+    60%{
+        bottom: 0;
+    }
+
+    75%{
+        bottom: 0;
+    }
+
+    95%{
+        bottom: 0;
     }
 
     100%{
